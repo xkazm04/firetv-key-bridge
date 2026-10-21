@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320x180 launcher banner: a remote's D-pad on the left, a bridge of three keys, a browser window on the right -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path android:fillColor="#FF14161C" android:pathData="M0,0h320v180h-320z" />
+    <!-- D-pad: ring, four wedges, centre -->
+    <path android:fillColor="#FF282C36" android:pathData="M82,90m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0z" />
+    <path android:fillColor="#FFE8B24A" android:pathData="M82,58l12,14h-24z" />
+    <path android:fillColor="#FFE8E4D8" android:pathData="M82,122l12,-14h-24z" />
+    <path android:fillColor="#FFE8E4D8" android:pathData="M50,90l14,-12v24z" />
+    <path android:fillColor="#FFE8E4D8" android:pathData="M114,90l-14,-12v24z" />
+    <path android:fillColor="#FFE8B24A" android:pathData="M82,90m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0z" />
+    <!-- the bridge: three keys in flight -->
+    <path android:fillColor="#FFE8B24A" android:pathData="M142,84h14v12h-14z" />
+    <path android:fillColor="#99E8B24A" android:pathData="M164,84h14v12h-14z" />
+    <path android:fillColor="#44E8B24A" android:pathData="M186,84h14v12h-14z" />
+    <!-- a browser window -->
+    <path android:fillColor="#FFE8E4D8" android:pathData="M214,56h72a6,6 0,0 1,6 6v56a6,6 0,0 1,-6 6h-72a6,6 0,0 1,-6 -6v-56a6,6 0,0 1,6 -6z" />
+    <path android:fillColor="#FF14161C" android:pathData="M214,70h72v42h-72z" />
+    <path android:fillColor="#FFE8B24A" android:pathData="M222,78h24v8h-24z" />
+    <path android:fillColor="#FF282C36" android:pathData="M222,92h56v6h-56z" />
+    <path android:fillColor="#FF282C36" android:pathData="M222,102h40v6h-40z" />
+</vector>
